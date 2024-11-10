@@ -1,5 +1,5 @@
 import "./login.scss";
 function Login() {
-  return <></>;
+  return <>this is login page</>;
 }
 export default Login;
