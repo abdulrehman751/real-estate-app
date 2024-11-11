@@ -11,9 +11,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<HomePage />} /> {/* Default route */}
-          <Route path='list' element={<ListPage />} />
-          <Route path=':id' element={<SinglePage />} />
-          <Route path='profile' element={<ProfilePage />} />
+          <Route path='/list' element={<ListPage />} />
+          <Route path='/:id' element={<SinglePage />} />
+          <Route path='/profile' element={<ProfilePage />} />
         </Route>
       </Routes>
     </BrowserRouter>
